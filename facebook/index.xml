@@ -1,0 +1,113 @@
+<Alloy>
+	<NavigationWindow id="win1" platform="ios">
+		<Window id="win2" title="News Feed" class="fb-bar-color">
+			<LeftNavButton>
+				<Button class="glyphish-magnify" />
+			</LeftNavButton>
+			<RightNavButton>
+				<Button class="btn-drawer-icon" />
+			</RightNavButton>
+			<View class="n-container h-44 fb-toolbar-bg-color">
+				<View class="n-col-4 lo-horizontal t-10%">
+					<ImageView class="h-15 w-15 glyphish-pencil l-15%" />
+					<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5% w-60%">Status</Label>
+					<View class="h-100% w-2 vert-line"></View>
+				</View>
+				<View class="n-col-4 lo-horizontal t-10%">
+					<ImageView class="w-15 glyphish-camera l-15%" height="13"/>
+					<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5% w-60%">Photo</Label>
+					<View class="h-100% w-2 vert-line"></View>
+				</View>
+				<View class="n-col-4 lo-horizontal t-10%">
+					<ImageView class="h-15 w-10 glyphish-map-marker l-15%" />
+					<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5%">Check In</Label>
+					<View class="h-100% w-2"></View>
+				</View>
+			</View>
+			<ScrollView class="h-fill w-fill">
+				<View class="w-95% h-size t-10 rounded-border-4 bg-white" >
+					<View class="l-10 r-10 t-10 b-10 lo-horizontal" height="330dp">
+						<View class="n-col-2 h-50 lo-composite">
+							<ImageView image="sample-img.png" class="h-40 w-40 t-0 l-0" />
+						</View>
+						<View class="n-col-8 lo-horizontal h-50">
+							<Label class="font-14-helveticaneue-bold">John Smith</Label>
+							<Label class="l-2">with</Label>
+							<Label class="l-2 font-14-helveticaneue-bold">Jane Smith</Label>
+							<Label class="l-2">and</Label>
+							<Label class="l-2 font-14-helveticaneue-bold">3 others</Label>
+							<View class="n-col-12 lo-horizontal">
+								<Label class="small ">Yesterday in Austin, TX</Label>
+								<ImageView class="l-5 glyphish-location w-10 h-10" />
+							</View>
+						</View>
+						<View class="n-col-2 h-50">
+							<Label class="font-14-helveticaneue-bold color-gray w-100% text-right">V</Label>
+						</View>
+						<Label class="n-col-12 t-10">Good friends, good food and a lot of laughs.</Label>
+						<ImageView image="sample-img.png" class="w-100% h-200 t-10" />
+						<Label class="n-col-12 t-15 small">10 Likes 3 Comments</Label>
+					</View>
+					<View class="n-container h-44 fb-toolbar-bg-color">
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-15 glyphish-sun l-15%" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5% w-60%">Like</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-15 glyphish-chat" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5%">Comment</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-20 glyphish-squiggle l-20%" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5%">Share</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+					</View>
+				</View>
+				<View class="w-95% h-size t-10 rounded-border-4 bg-white" >
+					<View class="l-10 r-10 t-10 b-10 lo-horizontal" height="330dp">
+						<View class="n-col-2 h-50 lo-composite">
+							<ImageView image="sample-img.png" class="h-40 w-40 t-0 l-0" />
+						</View>
+						<View class="n-col-8 lo-horizontal h-50">
+							<Label class="font-14-helveticaneue-bold">John Smith</Label>
+							<Label class="l-2">with</Label>
+							<Label class="l-2 font-14-helveticaneue-bold">Jane Smith</Label>
+							<Label class="l-2">and</Label>
+							<Label class="l-2 font-14-helveticaneue-bold">3 others</Label>
+							<View class="n-col-12 lo-horizontal">
+								<Label class="small ">Yesterday in Austin, TX</Label>
+								<ImageView class="l-5 glyphish-location w-10 h-10" />
+							</View>
+						</View>
+						<View class="n-col-2 h-50">
+							<Label class="font-14-helveticaneue-bold color-gray w-100% text-right">V</Label>
+						</View>
+						<Label class="n-col-12 t-10">Good friends, good food and a lot of laughs.</Label>
+						<ImageView image="sample-img.png" class="w-100% h-200 t-10" />
+						<Label class="n-col-12 t-15 small">10 Likes 3 Comments</Label>
+					</View>
+					<View class="n-container h-44 fb-toolbar-bg-color">
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-15 glyphish-sun l-15%" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5% w-60%">Like</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-15 glyphish-chat" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5%">Comment</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+						<View class="n-col-4 lo-horizontal t-10%">
+							<ImageView class="h-15 w-20 glyphish-squiggle l-20%" />
+							<Label class="font-14-helveticaneue-bold fb-toolbar-color l-5%">Share</Label>
+							<View class="h-100% w-2"></View>
+						</View>
+					</View>
+				</View>
+			</ScrollView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
