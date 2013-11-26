@@ -13,7 +13,8 @@ Examples
 
 ### Facebook
 Here is an example of the facebook app built completely using Wriststrap (only TSS).  
-
+![Wriststrap Version](http://tnuzzi.github.io/wriststrap-examples/imgs/facebook.png "Wriststrap Version")
+![Real Version](http://tnuzzi.github.io/wriststrap-examples/imgs/facebook-real.png "Real Version")
 
 
 Designed and built by [@nuzzis](https://twitter.com/nuzzis) with the inspiration of [bootstrap](http://www.getbootstrap.com).<br />
