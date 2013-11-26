@@ -12,7 +12,13 @@ Examples
 --------
 
 ### Facebook
-Here is an example of the facebook app built completely using Wriststrap (only TSS).  
+Here is an example of the facebook app built completely using Wriststrap (only TSS).
+
+Using:
+*  Wriststrap
+*  Glyphish for icons
+*  5 TSS custom classes (mostly for color matching and NavBar)
+
 ![Wriststrap Version](http://tnuzzi.github.io/wriststrap-examples/imgs/facebook.png "Wriststrap Version")
 ![Real Version](http://tnuzzi.github.io/wriststrap-examples/imgs/facebook-real.png "Real Version")
 
