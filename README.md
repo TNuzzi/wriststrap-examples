@@ -3,7 +3,7 @@ Wriststrap Examples
 This GitHub repository hold examples built with [Wriststrap](https://github.com/TNuzzi/wriststrap).  Wriststrap is a Twitter Bootstrap like framework for the [Appcelerator Titanium](http://www.appcelerator.com) (Alloy).
 
 ### Usage:
-1.  Clone the git project to your local machine: `git clone https://github.com/TNuzzi/wriststrap-example.git`
+1.  Clone the git project to your local machine: `git clone https://github.com/TNuzzi/wriststrap-examples.git`
 2.  Create a new mobile app in Titanium Studio.
 3.  Copy desired example files from git repo into new mobile app
 4.  Build
